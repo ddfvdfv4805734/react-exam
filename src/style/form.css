@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin-top:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ 
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50px solid purple;
+    background-color: whitesmoke;
+    width: 70rem;
+    height: 40rem;
+   
+    
+}
+.form{
+    width: 25rem;
+    height: 28rem;
+    border: 1px solid rgb(253, 252, 252);
+  box-shadow: rgb(218, 215, 215) 2px 2px 4px 2px ;
+}
+.main form{
+    width: 5rem;
+    gap: 2rem; 
+}
+.form hr{
+    width: 15rem;
+}
+.login{
+    width: 10rem;
+    height: 2rem;
+    background-color: blueviolet;
+}
+.inp{
+    width: 10rem;
+    height: 2rem;
+}
+.btn{
+  width: 5rem;
+    height: 2rem; 
+   border: 2px solid red;
+   box-shadow: inset;
+   background-color: white;
+   
+}
+.btn1{
+    width: 5rem;
+    height: 2rem;
+    border-color: gray;
+}
+.gap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    gap: 1.5rem;
+}
+.img{
+    padding-left: 2rem;
+}
